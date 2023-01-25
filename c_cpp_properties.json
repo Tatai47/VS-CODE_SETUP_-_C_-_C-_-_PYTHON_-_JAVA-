@@ -1,0 +1,23 @@
+{
+//This is C and C++ json file to detect your gcc compilor for windows and linux Operating system
+"configurations": [
+    //Configuation for windows OS and Linux OSv GCC 
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+       "compilerPath": "add\\your\\windows\\system\\gcc\\path\\gcc.exe", //Windows
+       "compilerPath": "/usr/bin/gcc", //Linux OS ||  //It's a default path dont' need to change it
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}
